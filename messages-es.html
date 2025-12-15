@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mensajes – CleanMatch</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+<div class="page">
+
+  <div class="navbar">
+    <div class="brand-wrap">
+      <img src="logo.svg" alt="CleanMatch logo">
+      <div class="brand-text">CleanMatch</div>
+    </div>
+    <div class="nav-links">
+      <a href="index-es.html">Inicio</a>
+      <a href="cleaners-es.html">Limpieza</a>
+      <a href="homeowners-es.html">Propietarios</a>
+      <a href="pricing-es.html">Planes</a>
+      <a href="booking-es.html">Reserva</a>
+      <a href="messages-es.html">Mensajes</a>
+      <a href="contact-es.html">Contacto</a>
+      <a href="index.html" class="lang-pill">EN</a>
+    </div>
+  </div>
+
+
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">Mensajes entre limpiadores y propietarios (demo)</h2>
+      <p class="section-sub">Interfaz de chat sencilla guardada solo en este navegador. La versión real iría contra un backend.</p>
+    </div>
+
+    <div class="messages-layout">
+      <div class="conversation-list">
+        <h3>Conversaciones</h3>
+        <div class="active">Sarah M ↔ Emily J</div>
+        <div>Jason C ↔ Ana M</div>
+        <div>Maria G ↔ Victoria S</div>
+        <p class="small-text">Solo demo – esta lista es estática.</p>
+      </div>
+
+      <div class="chat-card">
+        <div class="chat-messages" id="chatMessages"></div>
+        <div class="chat-input">
+          <input id="chatInput" type="text" placeholder="Escribe un mensaje... (demo)">
+          <button class="pill-btn" id="chatSend">Enviar</button>
+        </div>
+        <p class="small-text">Los mensajes se guardan en <code>localStorage</code> solo en este navegador.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>© 2025 CleanMatch</footer>
+</div>
+</body>
+</html>
