@@ -3,24 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <title>CleanMatch</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <strong>CleanMatch</strong>
-    <a href="/">Home</a>
-    <a href="/pricing.html">Pricing</a>
-    <a href="/booking.html">Booking</a>
-    <a href="/messages.html">Messages</a>
-    <a href="/support.html">Support</a>
-    <a href="/login.html">Login</a>
-    <button onclick="setLang('en')">EN</button>
-    <button onclick="setLang('es')">ES</button>
-  </nav>
+  <header>
+    <h1>CleanMatch</h1>
+    <p id="tagline"></p>
 
-  <h1 id="title"></h1>
-  <p id="subtitle"></p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="booking.html">Booking</a>
+      <a href="messages.html">Messages</a>
+      <a href="ratings.html">Ratings</a>
+      <a href="support.html">Support</a>
+      <a href="login.html">Login</a>
+    </nav>
 
-  <script type="module" src="/main.js"></script>
+    <div class="lang">
+      <button onclick="setLang('en')">EN</button>
+      <button onclick="setLang('es')">ES</button>
+    </div>
+  </header>
+
+  <main>
+    <h2 id="headline"></h2>
+    <p id="description"></p>
+  </main>
+
+  <script src="lang.js"></script>
 </body>
 </html>
